@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A7CAC2225E63A5700D79A17 /* Fallacious_ProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CAC2125E63A5700D79A17 /* Fallacious_ProApp.swift */; };
+		7A7CAC2425E63A5700D79A17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CAC2325E63A5700D79A17 /* ContentView.swift */; };
+		7A7CAC2625E63A5A00D79A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A7CAC2525E63A5A00D79A17 /* Assets.xcassets */; };
+		7A7CAC3425E63A8600D79A17 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7CAC3325E63A8600D79A17 /* CloudKit.framework */; };
+		7A7CAC3725E63A9A00D79A17 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CAC3625E63A9A00D79A17 /* ModelData.swift */; };
+		7A7CAC3A25E63AAC00D79A17 /* Fallacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CAC3925E63AAC00D79A17 /* Fallacy.swift */; };
+		7A7CAC3D25E63AB200D79A17 /* CKFallacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CAC3C25E63AB200D79A17 /* CKFallacy.swift */; };
+		7A7CAC4025E63B2A00D79A17 /* FallacyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CAC3F25E63B2A00D79A17 /* FallacyRow.swift */; };
+		7A7CAC4325E63B3E00D79A17 /* FallacyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CAC4225E63B3E00D79A17 /* FallacyDetail.swift */; };
+		7A7CAC4625E63F1200D79A17 /* AliasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CAC4525E63F1200D79A17 /* AliasesView.swift */; };
+		7A7CAC4925E63F1900D79A17 /* TerminologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7CAC4825E63F1900D79A17 /* TerminologyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A7CAC1E25E63A5700D79A17 /* Fallacious Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fallacious Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7CAC2125E63A5700D79A17 /* Fallacious_ProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fallacious_ProApp.swift; sourceTree = "<group>"; };
+		7A7CAC2325E63A5700D79A17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A7CAC2525E63A5A00D79A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A7CAC2A25E63A5A00D79A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7CAC3125E63A7700D79A17 /* Fallacious Pro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fallacious Pro.entitlements"; sourceTree = "<group>"; };
+		7A7CAC3325E63A8600D79A17 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		7A7CAC3625E63A9A00D79A17 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		7A7CAC3925E63AAC00D79A17 /* Fallacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fallacy.swift; sourceTree = "<group>"; };
+		7A7CAC3C25E63AB200D79A17 /* CKFallacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFallacy.swift; sourceTree = "<group>"; };
+		7A7CAC3F25E63B2A00D79A17 /* FallacyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallacyRow.swift; sourceTree = "<group>"; };
+		7A7CAC4225E63B3E00D79A17 /* FallacyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallacyDetail.swift; sourceTree = "<group>"; };
+		7A7CAC4525E63F1200D79A17 /* AliasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliasesView.swift; sourceTree = "<group>"; };
+		7A7CAC4825E63F1900D79A17 /* TerminologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A7CAC1B25E63A5700D79A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7CAC3425E63A8600D79A17 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A7CAC1525E63A5700D79A17 = {
+			isa = PBXGroup;
+			children = (
+				7A7CAC2025E63A5700D79A17 /* Fallacious Pro */,
+				7A7CAC1F25E63A5700D79A17 /* Products */,
+				7A7CAC3225E63A8600D79A17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A7CAC1F25E63A5700D79A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A7CAC1E25E63A5700D79A17 /* Fallacious Pro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A7CAC2025E63A5700D79A17 /* Fallacious Pro */ = {
+			isa = PBXGroup;
+			children = (
+				7A7CAC3925E63AAC00D79A17 /* Fallacy.swift */,
+				7A7CAC3C25E63AB200D79A17 /* CKFallacy.swift */,
+				7A7CAC3625E63A9A00D79A17 /* ModelData.swift */,
+				7A7CAC2125E63A5700D79A17 /* Fallacious_ProApp.swift */,
+				7A7CAC2325E63A5700D79A17 /* ContentView.swift */,
+				7A7CAC3F25E63B2A00D79A17 /* FallacyRow.swift */,
+				7A7CAC4225E63B3E00D79A17 /* FallacyDetail.swift */,
+				7A7CAC4525E63F1200D79A17 /* AliasesView.swift */,
+				7A7CAC4825E63F1900D79A17 /* TerminologyView.swift */,
+				7A7CAC2525E63A5A00D79A17 /* Assets.xcassets */,
+				7A7CAC2A25E63A5A00D79A17 /* Info.plist */,
+				7A7CAC3125E63A7700D79A17 /* Fallacious Pro.entitlements */,
+			);
+			path = "Fallacious Pro";
+			sourceTree = "<group>";
+		};
+		7A7CAC3225E63A8600D79A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A7CAC3325E63A8600D79A17 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A7CAC1D25E63A5700D79A17 /* Fallacious Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7CAC2D25E63A5A00D79A17 /* Build configuration list for PBXNativeTarget "Fallacious Pro" */;
+			buildPhases = (
+				7A7CAC1A25E63A5700D79A17 /* Sources */,
+				7A7CAC1B25E63A5700D79A17 /* Frameworks */,
+				7A7CAC1C25E63A5700D79A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fallacious Pro";
+			productName = "Fallacious Pro";
+			productReference = 7A7CAC1E25E63A5700D79A17 /* Fallacious Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A7CAC1625E63A5700D79A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Tavitian Cloud";
+				TargetAttributes = {
+					7A7CAC1D25E63A5700D79A17 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 7A7CAC1925E63A5700D79A17 /* Build configuration list for PBXProject "Fallacious Pro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A7CAC1525E63A5700D79A17;
+			productRefGroup = 7A7CAC1F25E63A5700D79A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A7CAC1D25E63A5700D79A17 /* Fallacious Pro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A7CAC1C25E63A5700D79A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7CAC2625E63A5A00D79A17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A7CAC1A25E63A5700D79A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7CAC4925E63F1900D79A17 /* TerminologyView.swift in Sources */,
+				7A7CAC3D25E63AB200D79A17 /* CKFallacy.swift in Sources */,
+				7A7CAC4625E63F1200D79A17 /* AliasesView.swift in Sources */,
+				7A7CAC3A25E63AAC00D79A17 /* Fallacy.swift in Sources */,
+				7A7CAC2425E63A5700D79A17 /* ContentView.swift in Sources */,
+				7A7CAC2225E63A5700D79A17 /* Fallacious_ProApp.swift in Sources */,
+				7A7CAC3725E63A9A00D79A17 /* ModelData.swift in Sources */,
+				7A7CAC4025E63B2A00D79A17 /* FallacyRow.swift in Sources */,
+				7A7CAC4325E63B3E00D79A17 /* FallacyDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7A7CAC2B25E63A5A00D79A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A7CAC2C25E63A5A00D79A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A7CAC2E25E63A5A00D79A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fallacious Pro/Fallacious Pro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = JDL5FY6SCC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fallacious Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.tavitian.fallaciouspro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A7CAC2F25E63A5A00D79A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fallacious Pro/Fallacious Pro.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = JDL5FY6SCC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fallacious Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.tavitian.fallaciouspro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A7CAC1925E63A5700D79A17 /* Build configuration list for PBXProject "Fallacious Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7CAC2B25E63A5A00D79A17 /* Debug */,
+				7A7CAC2C25E63A5A00D79A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A7CAC2D25E63A5A00D79A17 /* Build configuration list for PBXNativeTarget "Fallacious Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7CAC2E25E63A5A00D79A17 /* Debug */,
+				7A7CAC2F25E63A5A00D79A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A7CAC1625E63A5700D79A17 /* Project object */;
+}
